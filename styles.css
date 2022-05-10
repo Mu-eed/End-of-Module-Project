@@ -45,6 +45,13 @@ ul.nav-links {
 }
 
 .flex {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-text {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -60,4 +67,33 @@ nav {
     height: 50px;
     text-align: left;
     width: 100%;
+} 
+
+.a {
+    border-bottom: solid black;
+}
+
+.progress {
+    display: flex;
+    height: 1.5rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
